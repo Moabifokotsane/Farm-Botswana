@@ -1,7 +1,7 @@
 function getWeather() {
   const apiKey = 'Y6ew5Z5bbig9Abk0WikGjPbrtLJFckcW';
   const locationKey = '123950';
-  const url = `http://dataservice.accuweather.com/currentconditions/v1/${locationKey}?apikey=${apiKey}`;
+  const url = `https://dataservice.accuweather.com/currentconditions/v1/${locationKey}?apikey=${apiKey}`;
 
   fetch(url)
     .then(response => response.json())

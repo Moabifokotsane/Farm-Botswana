@@ -1,5 +1,4 @@
 /* Global Styles */
-
 body {
   font-family: Arial, sans-serif;
   line-height: 1.5;
@@ -63,7 +62,7 @@ h1, h2 {
   border: 1px solid #ccc;
   border-radius: 5px;
   background-color: #f7f7f7;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
 }
 
 .card h3 {
@@ -147,11 +146,14 @@ h1, h2 {
   background-color: #f1f1f1;
 }
 
-/* Media Queries */
+/* Responsive Styles */
 @media only screen and (max-width: 768px) {
-  /* Main content */
-  main {
-    max-width: 95%;
-    margin: 1rem auto;
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
+  nav li {
+    display:

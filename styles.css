@@ -1,0 +1,58 @@
+/* Global Styles */
+
+body {
+	font-family: Arial, sans-serif;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #2E8B57;
+	color: #fff;
+	padding: 1rem;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 1rem;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	max-width: 800px;
+	margin: 2rem auto;
+	padding: 1rem;
+}
+
+section {
+	margin-bottom: 2rem;
+}
+
+h1, h2 {
+	font-weight: normal;
+}
+
+/* Specific Styles */
+
+#weather {
+	background-color: #F0E68C;
+}
+
+#soil {
+	background-color: #ADD8E6;
+}
+
+#planting {
+	background-color: #FFA07A;
+}

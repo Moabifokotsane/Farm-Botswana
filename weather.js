@@ -1,6 +1,6 @@
 function getWeather() {
   // Replace YOUR_API_KEY_HERE with your OpenWeatherMap API key
-  let apiKey = "156378f4f424064b01eb3fc95bd05da0";
+  let apiKey = "1032ac3f662c1f121b1a39264a2b3c90";
   
   // Replace CITY_NAME_HERE with the name of the city you want weather information for
   let city = "Gaborone";

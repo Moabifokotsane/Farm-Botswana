@@ -5,7 +5,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="styles.css">
-	<script src="weather.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/ol@6.5.0/dist/ol.js"></script>
+
 </head>
 <body>
 	<header>
@@ -26,7 +27,9 @@
 			<p id="description"></p>
 			<img id="icon" src="">
 
-    			<button onclick="getWeather()">Get Weather</button>
+    			<button onclick="displayWeather()">Show Botswana Weather Map</button>
+			<div id="map" style="height: 500px"></div>
+
 		</section>
 		<section id="soil">
 			<h2>Soil Quality</h2>

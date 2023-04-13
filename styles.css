@@ -56,3 +56,24 @@ h1, h2 {
 #planting {
 	background-color: #FFA07A;
 }
+.card {
+	margin-bottom: 20px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background-color: #f7f7f7;
+	box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.card h3 {
+	margin-top: 0;
+	font-size: 24px;
+	color: #333;
+}
+
+.card p {
+	margin: 0;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #666;
+}

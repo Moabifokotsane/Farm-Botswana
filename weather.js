@@ -10,10 +10,10 @@ function getWeather() {
       const windSpeed = htmlDocument.querySelector('.wind-speed').textContent;
       const humidity = htmlDocument.querySelector('.humidity').textContent;
 
-      document.getElementById('temperature').textContent = temperature;
-      document.getElementById('description').textContent = description;
-      document.getElementById('wind-speed').textContent = windSpeed;
-      document.getElementById('humidity').textContent = humidity;
+      console.log('Temperature:', temperature);
+      console.log('Description:', description);
+      console.log('Wind Speed:', windSpeed);
+      console.log('Humidity:', humidity);
     })
     .catch(error => {
       console.error('Error:', error);
